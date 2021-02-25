@@ -6,8 +6,8 @@ export const onCreateInstllerInfo = /* GraphQL */ `
     onCreateInstllerInfo {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }
@@ -18,8 +18,8 @@ export const onUpdateInstllerInfo = /* GraphQL */ `
     onUpdateInstllerInfo {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }
@@ -30,8 +30,8 @@ export const onDeleteInstllerInfo = /* GraphQL */ `
     onDeleteInstllerInfo {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }

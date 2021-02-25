@@ -24,5 +24,11 @@
         }
       }
     }
+  },
+  "storage": {
+    "QRImgaes": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

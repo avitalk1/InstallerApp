@@ -9,8 +9,8 @@ export const createInstllerInfo = /* GraphQL */ `
     createInstllerInfo(input: $input, condition: $condition) {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }
@@ -24,8 +24,8 @@ export const updateInstllerInfo = /* GraphQL */ `
     updateInstllerInfo(input: $input, condition: $condition) {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }
@@ -39,8 +39,8 @@ export const deleteInstllerInfo = /* GraphQL */ `
     deleteInstllerInfo(input: $input, condition: $condition) {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }

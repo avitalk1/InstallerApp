@@ -6,8 +6,8 @@ export const getInstllerInfo = /* GraphQL */ `
     getInstllerInfo(id: $id) {
       id
       installerUsername
-      QRLink
       HouseID
+      isActive
       createdAt
       updatedAt
     }
@@ -23,8 +23,8 @@ export const listInstllerInfos = /* GraphQL */ `
       items {
         id
         installerUsername
-        QRLink
         HouseID
+        isActive
         createdAt
         updatedAt
       }
