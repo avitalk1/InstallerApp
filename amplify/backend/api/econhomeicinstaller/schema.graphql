@@ -1,0 +1,6 @@
+type InstllerInfo @model {
+  id: ID!
+  installerUsername: String!
+  QRLink: String!
+  HouseID:String!
+}
