@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-econhomeicinstaller-staging-90413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::047268288390:role/amplify-econhomeicinstaller-staging-90413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::047268288390:role/amplify-econhomeicinstaller-staging-90413-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-econhomeicinstaller-staging-90413-deployment",
+      "UnauthRoleName": "amplify-econhomeicinstaller-staging-90413-unauthRole",
+      "StackName": "amplify-econhomeicinstaller-staging-90413",
+      "StackId": "arn:aws:cloudformation:us-east-2:047268288390:stack/amplify-econhomeicinstaller-staging-90413/6ede86c0-7748-11eb-b965-0216171f8fb8",
+      "AmplifyAppId": "d3tatygsrr8hnx"
+    },
+    "categories": {
+      "auth": {
+        "econhomeicinstaller139dbd36": {}
+      }
+    }
+  }
+}

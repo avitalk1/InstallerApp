@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "econhomeicinstaller139dbd36": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
